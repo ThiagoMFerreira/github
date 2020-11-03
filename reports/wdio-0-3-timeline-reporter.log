@@ -1,0 +1,92 @@
+{
+  "start": "2020-11-03T22:54:41.686Z",
+  "end": "2020-11-03T22:54:51.587Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "86.0.4240.183",
+    "chrome": {
+      "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+      "userDataDir": "/tmp/.com.google.Chrome.krNwiw"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:38745"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:virtualAuthenticators": true,
+    "webdriver.remote.sessionid": "fa6fe17a4e286170132ab1c58889a4fe",
+    "sessionId": "fa6fe17a4e286170132ab1c58889a4fe"
+  },
+  "baseUrl": "https://github.com/",
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 60000,
+    "ui": "bdd"
+  },
+  "duration": 9901,
+  "suites": [
+    {
+      "title": "Trial Plan",
+      "duration": 9768,
+      "start": "2020-11-03T22:54:41.696Z",
+      "end": "2020-11-03T22:54:51.464Z",
+      "tests": [
+        {
+          "title": "Verify if Enterprise Cloud plan is working correctly",
+          "start": "2020-11-03T22:54:41.697Z",
+          "end": "2020-11-03T22:54:47.233Z",
+          "duration": 5536,
+          "state": "passed",
+          "screenshots": [
+            "/home/thiago/Documentos/Projects/github/reports/file-1604444087231.jpeg"
+          ]
+        },
+        {
+          "title": "Verify if Enterprise Server plan is working correctly",
+          "start": "2020-11-03T22:54:47.234Z",
+          "end": "2020-11-03T22:54:51.462Z",
+          "duration": 4228,
+          "state": "passed",
+          "screenshots": [
+            "/home/thiago/Documentos/Projects/github/reports/file-1604444091461.jpeg"
+          ]
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2020-11-03T22:54:41.698Z",
+          "end": "2020-11-03T22:54:43.879Z",
+          "duration": 2181,
+          "title": "\"before each\" hook for \"Verify if Enterprise Cloud plan is working correctly\"",
+          "associatedSuite": "Trial Plan"
+        },
+        {
+          "start": "2020-11-03T22:54:47.234Z",
+          "end": "2020-11-03T22:54:48.007Z",
+          "duration": 773,
+          "title": "\"before each\" hook for \"Verify if Enterprise Server plan is working correctly\"",
+          "associatedSuite": "Trial Plan"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/home/thiago/Documentos/Projects/github/tests/specs/trialPlan.e2e.js"
+  ],
+  "state": {
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0
+  }
+}
