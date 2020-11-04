@@ -5,7 +5,7 @@
 
 To run the tests you need to have installed on your machine:
 - Node => 12
-- Java
+- Java => 8
 - Chrome
 
 # How to Run the Automated Tests
